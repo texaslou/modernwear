@@ -1,8 +1,12 @@
+import mens from '../../assets/mens.webp';
+import womens from '../../assets/women2.jpg';
+import hats from '../../assets/hats.webp';
+
 const INITAL_STATE = {
     sections : [
         {
           title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          imageUrl: `${hats}`,
           id: 1,
           linkUrl: 'shop/hats'
         },
@@ -20,14 +24,14 @@ const INITAL_STATE = {
         },
         {
           title: 'womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          imageUrl: `${womens}`,
           size: 'large',
           id: 4,
           linkUrl: 'shop/womens'
         },
         {
           title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          imageUrl: `${mens}`,
           size: 'large',
           id: 5,
           linkUrl: 'shop/mens'
